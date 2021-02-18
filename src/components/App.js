@@ -52,7 +52,7 @@ class Timer extends Component {
   render() {
     return (
       <>
-        <div className="ball" style={{left: this.state.x, top: this.state.y}}></div>
+        <div className="ball" style={{left: this.state.x, top: this.state.y,position: "absolute"}}></div>
         <div className="heading-timer">{this.state.time}</div>
         <div className="start" onClick={this.start}>start</div>
         <div className="hole"></div>
