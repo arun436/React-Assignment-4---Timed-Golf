@@ -6,6 +6,23 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:ital,wght@1,100&display=swap");
 
+.start {
+  font-family: "Fredoka One", cursive;
+  background-color: #202124;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  width: 195px;
+  margin: 5rem;
+  height: 60px;
+}
+
 .ballProvider {
   font-family: "Fredoka One", cursive;
   background-color: #202124;
@@ -17,7 +34,6 @@
   width: 195px;
   margin: 15px;
   height: 60px;
-
 }
 
 
